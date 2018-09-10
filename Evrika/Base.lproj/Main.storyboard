@@ -131,6 +131,21 @@
             </objects>
             <point key="canvasLocation" x="-434.39999999999998" y="-421.43928035982015"/>
         </scene>
+        <!--Candidate HomeVC-->
+        <scene sceneID="mY8-O9-yER">
+            <objects>
+                <viewController id="VM6-QF-Ex7" customClass="CandidateHomeVC" customModule="Evrika" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oXH-cm-kpW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TIt-ck-qBi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtY-eU-Hvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="-421"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="448" height="92"/>

@@ -1,0 +1,6 @@
+framework module Pods_Evrika {
+  umbrella header "Pods-Evrika-umbrella.h"
+
+  export *
+  module * { export * }
+}
