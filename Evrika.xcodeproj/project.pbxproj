@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0181C2312146677000E9F821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2302146677000E9F821 /* AppDelegate.swift */; };
-		0181C2332146677000E9F821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2322146677000E9F821 /* ViewController.swift */; };
 		0181C2362146677000E9F821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0181C2342146677000E9F821 /* Main.storyboard */; };
 		0181C2392146677000E9F821 /* Evrika.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2372146677000E9F821 /* Evrika.xcdatamodeld */; };
 		0181C23B2146677100E9F821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0181C23A2146677100E9F821 /* Assets.xcassets */; };
 		0181C23E2146677100E9F821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0181C23C2146677100E9F821 /* LaunchScreen.storyboard */; };
+		0181C2462146677100E9F821 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2452146677100E9F821 /* LoginVC.swift */; };
+		0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2472146677100E9F821 /* GetStartedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0181C22D2146677000E9F821 /* Evrika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evrika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0181C2302146677000E9F821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0181C2322146677000E9F821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0181C2352146677000E9F821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0181C2382146677000E9F821 /* Evrika.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Evrika.xcdatamodel; sourceTree = "<group>"; };
 		0181C23A2146677100E9F821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0181C23D2146677100E9F821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0181C23F2146677100E9F821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0181C2452146677100E9F821 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0181C2472146677100E9F821 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0181C2302146677000E9F821 /* AppDelegate.swift */,
-				0181C2322146677000E9F821 /* ViewController.swift */,
 				0181C2342146677000E9F821 /* Main.storyboard */,
 				0181C23A2146677100E9F821 /* Assets.xcassets */,
 				0181C23C2146677100E9F821 /* LaunchScreen.storyboard */,
 				0181C23F2146677100E9F821 /* Info.plist */,
 				0181C2372146677000E9F821 /* Evrika.xcdatamodeld */,
+				0181C2452146677100E9F821 /* LoginVC.swift */,
+				0181C2472146677100E9F821 /* GetStartedVC.swift */,
 			);
 			path = Evrika;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0181C2392146677000E9F821 /* Evrika.xcdatamodeld in Sources */,
-				0181C2332146677000E9F821 /* ViewController.swift in Sources */,
+				0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */,
 				0181C2312146677000E9F821 /* AppDelegate.swift in Sources */,
+				0181C2462146677100E9F821 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
