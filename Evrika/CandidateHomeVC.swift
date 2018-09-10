@@ -29,9 +29,9 @@ class CandidateHomeVC: UIViewController {
         tabController.delegate = self
         self.navigationController?.isNavigationBarHidden = true  //Hide
         let profile = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProfileVC")
-
+        let GetStartedVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GetStartedVC")
         tabController.setViewController(profile, atIndex: 0)
-        tabController.setViewController(profile, atIndex: 1)
+        tabController.setViewController(GetStartedVC, atIndex: 1)
         tabController.setViewController(profile, atIndex: 2)
         tabController.defaultColor = .white
         //the color of the icon when a menu is selected
