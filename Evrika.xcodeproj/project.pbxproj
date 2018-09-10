@@ -15,6 +15,9 @@
 		0181C2462146677100E9F821 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2452146677100E9F821 /* LoginVC.swift */; };
 		0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2472146677100E9F821 /* GetStartedVC.swift */; };
 		0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C24921466DB300E9F821 /* CandidateHomeVC.swift */; };
+		01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D65214670FB00D8F0BA /* ProfileVC.swift */; };
+		01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D672146B10E00D8F0BA /* SkillCell.swift */; };
+		01F14D6A2146B10E00D8F0BA /* SkillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F14D682146B10E00D8F0BA /* SkillCell.xib */; };
 		DB8345551E8B67484CEF3DC2 /* Pods_Evrika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334DCDD63B742441F61FBB78 /* Pods_Evrika.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		0181C2452146677100E9F821 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0181C2472146677100E9F821 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 		0181C24921466DB300E9F821 /* CandidateHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateHomeVC.swift; sourceTree = "<group>"; };
+		01F14D65214670FB00D8F0BA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		01F14D672146B10E00D8F0BA /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		01F14D682146B10E00D8F0BA /* SkillCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillCell.xib; sourceTree = "<group>"; };
 		1B43622DD635B0FB64849E7D /* Pods-Evrika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evrika.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evrika/Pods-Evrika.debug.xcconfig"; sourceTree = "<group>"; };
 		268A3950B1AFD553AE9EA0F0 /* Pods-Evrika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evrika.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evrika/Pods-Evrika.release.xcconfig"; sourceTree = "<group>"; };
 		334DCDD63B742441F61FBB78 /* Pods_Evrika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Evrika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +82,9 @@
 				0181C2452146677100E9F821 /* LoginVC.swift */,
 				0181C2472146677100E9F821 /* GetStartedVC.swift */,
 				0181C24921466DB300E9F821 /* CandidateHomeVC.swift */,
+				01F14D65214670FB00D8F0BA /* ProfileVC.swift */,
+				01F14D672146B10E00D8F0BA /* SkillCell.swift */,
+				01F14D682146B10E00D8F0BA /* SkillCell.xib */,
 			);
 			path = Evrika;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0181C23E2146677100E9F821 /* LaunchScreen.storyboard in Resources */,
+				01F14D6A2146B10E00D8F0BA /* SkillCell.xib in Resources */,
 				0181C23B2146677100E9F821 /* Assets.xcassets in Resources */,
 				0181C2362146677000E9F821 /* Main.storyboard in Resources */,
 			);
@@ -227,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */,
 				0181C2392146677000E9F821 /* Evrika.xcdatamodeld in Sources */,
+				01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */,
 				0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */,
 				0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */,
 				0181C2312146677000E9F821 /* AppDelegate.swift in Sources */,
