@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -395,6 +395,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97S-xX-BT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1204" y="312.14392803598201"/>
+        </scene>
+        <!--Nearby JobsVC-->
+        <scene sceneID="Xoe-Z4-3OM">
+            <objects>
+                <viewController storyboardIdentifier="NearbyJobsVC" id="fSi-yg-Z1h" customClass="NearbyJobsVC" customModule="Evrika" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fzk-Wf-bWu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6t6-Wo-HYA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="172-1B-gLw" firstAttribute="bottom" secondItem="6t6-Wo-HYA" secondAttribute="bottom" id="LAf-Am-Z17"/>
+                            <constraint firstItem="6t6-Wo-HYA" firstAttribute="top" secondItem="172-1B-gLw" secondAttribute="top" id="Sqg-CO-6za"/>
+                            <constraint firstItem="6t6-Wo-HYA" firstAttribute="leading" secondItem="172-1B-gLw" secondAttribute="leading" id="TT8-lH-Qlp"/>
+                            <constraint firstItem="172-1B-gLw" firstAttribute="trailing" secondItem="6t6-Wo-HYA" secondAttribute="trailing" id="W8t-vF-kkb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="172-1B-gLw"/>
+                    </view>
+                    <connections>
+                        <outlet property="jobMaps" destination="6t6-Wo-HYA" id="w6a-Qr-yL1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHp-2I-hgO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="191"/>
         </scene>
         <!--Get StartedVC-->
         <scene sceneID="EjM-QT-Ylm">

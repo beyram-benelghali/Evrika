@@ -43,5 +43,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Searching your nearby Jobs. It is secure and private.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Searching your nearby Jobs. It is secure and private.</string>
+
 </dict>
 </plist>

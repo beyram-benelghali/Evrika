@@ -29,10 +29,10 @@ class CandidateHomeVC: UIViewController {
         tabController.delegate = self
         self.navigationController?.isNavigationBarHidden = true  //Hide
         let profile = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProfileVC")
-        let GetStartedVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GetStartedVC")
+        let nearbyJobs = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NearbyJobsVC")
         tabController.setViewController(profile, atIndex: 0)
-        tabController.setViewController(GetStartedVC, atIndex: 1)
-        tabController.setViewController(profile, atIndex: 2)
+        tabController.setViewController(nearbyJobs, atIndex: 1)
+        tabController.setViewController(nearbyJobs, atIndex: 2)
         tabController.defaultColor = .white
         //the color of the icon when a menu is selected
         tabController.selectedColor = .white

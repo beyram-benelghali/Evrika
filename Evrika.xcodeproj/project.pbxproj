@@ -15,6 +15,7 @@
 		0181C2462146677100E9F821 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2452146677100E9F821 /* LoginVC.swift */; };
 		0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2472146677100E9F821 /* GetStartedVC.swift */; };
 		0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C24921466DB300E9F821 /* CandidateHomeVC.swift */; };
+		01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */; };
 		01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D65214670FB00D8F0BA /* ProfileVC.swift */; };
 		01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D672146B10E00D8F0BA /* SkillCell.swift */; };
 		01F14D6A2146B10E00D8F0BA /* SkillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F14D682146B10E00D8F0BA /* SkillCell.xib */; };
@@ -32,6 +33,7 @@
 		0181C2452146677100E9F821 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0181C2472146677100E9F821 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 		0181C24921466DB300E9F821 /* CandidateHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateHomeVC.swift; sourceTree = "<group>"; };
+		01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyJobsVC.swift; sourceTree = "<group>"; };
 		01F14D65214670FB00D8F0BA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		01F14D672146B10E00D8F0BA /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
 		01F14D682146B10E00D8F0BA /* SkillCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillCell.xib; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				01F14D65214670FB00D8F0BA /* ProfileVC.swift */,
 				01F14D672146B10E00D8F0BA /* SkillCell.swift */,
 				01F14D682146B10E00D8F0BA /* SkillCell.xib */,
+				01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */,
 			);
 			path = Evrika;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */,
 				0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */,
 				0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */,
+				01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */,
 				0181C2312146677000E9F821 /* AppDelegate.swift in Sources */,
 				0181C2462146677100E9F821 /* LoginVC.swift in Sources */,
 			);
