@@ -20,6 +20,7 @@ class ProfileVC: UIViewController {
         self.profilePicture.clipsToBounds = true;
         self.profilePicture.layer.borderWidth = 3.0
         self.profilePicture.layer.borderColor = UIColor.yellow.cgColor;
+      
         tableViewSkills?.register(SkillCell.nib, forCellReuseIdentifier:
             SkillCell.identifier)
         tableViewSkills?.delegate = self

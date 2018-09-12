@@ -18,6 +18,7 @@
 		01EDA9F32147FC8A0095F89C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F22147FC8A0095F89C /* CardView.swift */; };
 		01EDA9F6214908C00095F89C /* SkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F4214908C00095F89C /* SkillDetailCell.swift */; };
 		01EDA9F7214908C00095F89C /* SkillDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EDA9F5214908C00095F89C /* SkillDetailCell.xib */; };
+		01EDA9F921491DF10095F89C /* RecruiterProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */; };
 		01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */; };
 		01EFE4AC2147C401002ADA25 /* JobDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE4AB2147C401002ADA25 /* JobDetailVC.swift */; };
 		01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D65214670FB00D8F0BA /* ProfileVC.swift */; };
@@ -40,6 +41,7 @@
 		01EDA9F22147FC8A0095F89C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		01EDA9F4214908C00095F89C /* SkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailCell.swift; sourceTree = "<group>"; };
 		01EDA9F5214908C00095F89C /* SkillDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillDetailCell.xib; sourceTree = "<group>"; };
+		01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterProfileVC.swift; sourceTree = "<group>"; };
 		01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyJobsVC.swift; sourceTree = "<group>"; };
 		01EFE4AB2147C401002ADA25 /* JobDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailVC.swift; sourceTree = "<group>"; };
 		01F14D65214670FB00D8F0BA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				01EDA9F22147FC8A0095F89C /* CardView.swift */,
 				01EDA9F4214908C00095F89C /* SkillDetailCell.swift */,
 				01EDA9F5214908C00095F89C /* SkillDetailCell.xib */,
+				01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */,
 			);
 			path = Evrika;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */,
 				0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */,
 				01EDA9F32147FC8A0095F89C /* CardView.swift in Sources */,
+				01EDA9F921491DF10095F89C /* RecruiterProfileVC.swift in Sources */,
 				0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */,
 				01EFE4AC2147C401002ADA25 /* JobDetailVC.swift in Sources */,
 				01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */,
