@@ -15,11 +15,22 @@
 		0181C2462146677100E9F821 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2452146677100E9F821 /* LoginVC.swift */; };
 		0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C2472146677100E9F821 /* GetStartedVC.swift */; };
 		0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181C24921466DB300E9F821 /* CandidateHomeVC.swift */; };
+
 		BF529145214697DE00307A06 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF529144214697DE00307A06 /* OverlayView.xib */; };
 		BF52914721469B0900307A06 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52914621469B0900307A06 /* ExampleOverlayView.swift */; };
 		BFDE9A4221468043006D5BE7 /* JobOffersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE9A4121468043006D5BE7 /* JobOffersVC.swift */; };
 		BFE6048A214902B000BB5CE6 /* JobOfferCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE60489214902B000BB5CE6 /* JobOfferCardView.xib */; };
 		BFE6048C21490E3200BB5CE6 /* JobOfferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6048B21490E3200BB5CE6 /* JobOfferVC.swift */; };
+
+		01EDA9F32147FC8A0095F89C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F22147FC8A0095F89C /* CardView.swift */; };
+		01EDA9F6214908C00095F89C /* SkillDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F4214908C00095F89C /* SkillDetailCell.swift */; };
+		01EDA9F7214908C00095F89C /* SkillDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EDA9F5214908C00095F89C /* SkillDetailCell.xib */; };
+		01EDA9F921491DF10095F89C /* RecruiterProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */; };
+		01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */; };
+		01EFE4AC2147C401002ADA25 /* JobDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE4AB2147C401002ADA25 /* JobDetailVC.swift */; };
+		01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D65214670FB00D8F0BA /* ProfileVC.swift */; };
+		01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F14D672146B10E00D8F0BA /* SkillCell.swift */; };
+		01F14D6A2146B10E00D8F0BA /* SkillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F14D682146B10E00D8F0BA /* SkillCell.xib */; };
 		DB8345551E8B67484CEF3DC2 /* Pods_Evrika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334DCDD63B742441F61FBB78 /* Pods_Evrika.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +45,15 @@
 		0181C2452146677100E9F821 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0181C2472146677100E9F821 /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
 		0181C24921466DB300E9F821 /* CandidateHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateHomeVC.swift; sourceTree = "<group>"; };
+		01EDA9F22147FC8A0095F89C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		01EDA9F4214908C00095F89C /* SkillDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailCell.swift; sourceTree = "<group>"; };
+		01EDA9F5214908C00095F89C /* SkillDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillDetailCell.xib; sourceTree = "<group>"; };
+		01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterProfileVC.swift; sourceTree = "<group>"; };
+		01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyJobsVC.swift; sourceTree = "<group>"; };
+		01EFE4AB2147C401002ADA25 /* JobDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailVC.swift; sourceTree = "<group>"; };
+		01F14D65214670FB00D8F0BA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		01F14D672146B10E00D8F0BA /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		01F14D682146B10E00D8F0BA /* SkillCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillCell.xib; sourceTree = "<group>"; };
 		1B43622DD635B0FB64849E7D /* Pods-Evrika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evrika.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Evrika/Pods-Evrika.debug.xcconfig"; sourceTree = "<group>"; };
 		268A3950B1AFD553AE9EA0F0 /* Pods-Evrika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Evrika.release.xcconfig"; path = "Pods/Target Support Files/Pods-Evrika/Pods-Evrika.release.xcconfig"; sourceTree = "<group>"; };
 		334DCDD63B742441F61FBB78 /* Pods_Evrika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Evrika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,11 +106,22 @@
 				0181C2452146677100E9F821 /* LoginVC.swift */,
 				0181C2472146677100E9F821 /* GetStartedVC.swift */,
 				0181C24921466DB300E9F821 /* CandidateHomeVC.swift */,
+
 				BFDE9A4121468043006D5BE7 /* JobOffersVC.swift */,
 				BF52914621469B0900307A06 /* ExampleOverlayView.swift */,
 				BF529144214697DE00307A06 /* OverlayView.xib */,
 				BFE6048B21490E3200BB5CE6 /* JobOfferVC.swift */,
 				BFE60489214902B000BB5CE6 /* JobOfferCardView.xib */,
+
+				01F14D65214670FB00D8F0BA /* ProfileVC.swift */,
+				01F14D672146B10E00D8F0BA /* SkillCell.swift */,
+				01F14D682146B10E00D8F0BA /* SkillCell.xib */,
+				01EFE4A92146C188002ADA25 /* NearbyJobsVC.swift */,
+				01EFE4AB2147C401002ADA25 /* JobDetailVC.swift */,
+				01EDA9F22147FC8A0095F89C /* CardView.swift */,
+				01EDA9F4214908C00095F89C /* SkillDetailCell.swift */,
+				01EDA9F5214908C00095F89C /* SkillDetailCell.xib */,
+				01EDA9F821491DF10095F89C /* RecruiterProfileVC.swift */,
 			);
 			path = Evrika;
 			sourceTree = "<group>";
@@ -173,8 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0181C23E2146677100E9F821 /* LaunchScreen.storyboard in Resources */,
+
 				BFE6048A214902B000BB5CE6 /* JobOfferCardView.xib in Resources */,
 				BF529145214697DE00307A06 /* OverlayView.xib in Resources */,
+
+				01F14D6A2146B10E00D8F0BA /* SkillCell.xib in Resources */,
+				01EDA9F7214908C00095F89C /* SkillDetailCell.xib in Resources */,
 				0181C23B2146677100E9F821 /* Assets.xcassets in Resources */,
 				0181C2362146677000E9F821 /* Main.storyboard in Resources */,
 			);
@@ -232,12 +267,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EDA9F6214908C00095F89C /* SkillDetailCell.swift in Sources */,
+				01F14D66214670FB00D8F0BA /* ProfileVC.swift in Sources */,
 				0181C2392146677000E9F821 /* Evrika.xcdatamodeld in Sources */,
+
 				BFE6048C21490E3200BB5CE6 /* JobOfferVC.swift in Sources */,
 				BF52914721469B0900307A06 /* ExampleOverlayView.swift in Sources */,
+
+				01F14D692146B10E00D8F0BA /* SkillCell.swift in Sources */,
 				0181C24A21466DB300E9F821 /* CandidateHomeVC.swift in Sources */,
+				01EDA9F32147FC8A0095F89C /* CardView.swift in Sources */,
+				01EDA9F921491DF10095F89C /* RecruiterProfileVC.swift in Sources */,
 				0181C2482146677100E9F821 /* GetStartedVC.swift in Sources */,
+
 				BFDE9A4221468043006D5BE7 /* JobOffersVC.swift in Sources */,
+
+				01EFE4AC2147C401002ADA25 /* JobDetailVC.swift in Sources */,
+				01EFE4AA2146C188002ADA25 /* NearbyJobsVC.swift in Sources */,
 				0181C2312146677000E9F821 /* AppDelegate.swift in Sources */,
 				0181C2462146677100E9F821 /* LoginVC.swift in Sources */,
 			);
