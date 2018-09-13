@@ -8,6 +8,6 @@ target 'Evrika' do
   # Pods for Evrika
 
 pod 'AZTabBar'
-
+pod 'Koloda', '~> 4.4'
 
 end

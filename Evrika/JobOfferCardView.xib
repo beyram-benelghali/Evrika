@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JobOfferVC" customModule="Evrika" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="335"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMPANY NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgC-zD-U2U">
+                    <rect key="frame" x="28" y="27" width="139" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Axi-Yq-uZl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will program, and commission the most advanced automated assembly lines in the world." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwr-ds-eYB">
+                    <rect key="frame" x="28" y="187" width="324" height="99"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="99" id="kdI-5l-79U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Part-Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOG-Pd-Mei">
+                    <rect key="frame" x="28" y="294" width="76" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 3.400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-ry-TRG">
+                    <rect key="frame" x="291" y="294" width="61" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automation Controls Test Engineer " lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQY-Dn-u8q">
+                    <rect key="frame" x="28" y="51" width="324" height="121"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MOG-Pd-Mei" firstAttribute="firstBaseline" secondItem="8tV-ry-TRG" secondAttribute="firstBaseline" id="7Z4-F7-O9d"/>
+                <constraint firstItem="Vwr-ds-eYB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="DWF-jd-6ui"/>
+                <constraint firstItem="EgC-zD-U2U" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="Hpf-tg-ALS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gQY-Dn-u8q" secondAttribute="trailing" constant="23" id="Iyi-HY-PjT"/>
+                <constraint firstItem="gQY-Dn-u8q" firstAttribute="top" secondItem="EgC-zD-U2U" secondAttribute="bottom" constant="3" id="Kan-Ic-tB1"/>
+                <constraint firstItem="MOG-Pd-Mei" firstAttribute="baseline" secondItem="8tV-ry-TRG" secondAttribute="baseline" id="KdL-T3-v9L"/>
+                <constraint firstItem="gQY-Dn-u8q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="O2X-Q7-GPj"/>
+                <constraint firstItem="MOG-Pd-Mei" firstAttribute="top" secondItem="Vwr-ds-eYB" secondAttribute="bottom" constant="8" symbolic="YES" id="Q0C-hy-tGz"/>
+                <constraint firstItem="Vwr-ds-eYB" firstAttribute="leading" secondItem="MOG-Pd-Mei" secondAttribute="leading" id="XWE-t7-c4O"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vwr-ds-eYB" secondAttribute="trailing" constant="23" id="XzT-Tl-pEd"/>
+                <constraint firstItem="Vwr-ds-eYB" firstAttribute="trailing" secondItem="8tV-ry-TRG" secondAttribute="trailing" id="YlQ-95-Dk7"/>
+                <constraint firstItem="EgC-zD-U2U" firstAttribute="leading" secondItem="gQY-Dn-u8q" secondAttribute="leading" id="dby-05-iG7"/>
+                <constraint firstItem="EgC-zD-U2U" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="27" id="edD-GS-qXz"/>
+                <constraint firstItem="Vwr-ds-eYB" firstAttribute="top" secondItem="gQY-Dn-u8q" secondAttribute="bottom" constant="15" id="hbl-aB-MNt"/>
+                <constraint firstItem="gQY-Dn-u8q" firstAttribute="leading" secondItem="Vwr-ds-eYB" secondAttribute="leading" id="jFl-Sf-dOF"/>
+                <constraint firstAttribute="bottom" secondItem="MOG-Pd-Mei" secondAttribute="bottom" constant="20" symbolic="YES" id="mXr-8U-5kf"/>
+                <constraint firstItem="gQY-Dn-u8q" firstAttribute="trailing" secondItem="Vwr-ds-eYB" secondAttribute="trailing" id="s41-Yh-lS3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="CompanyNameLbl" destination="EgC-zD-U2U" id="oeR-mh-7BT"/>
+                <outlet property="JobDescriptionLbl" destination="Vwr-ds-eYB" id="7BG-Yd-CG8"/>
+                <outlet property="JobSalaryLbl" destination="8tV-ry-TRG" id="qdc-OC-Qer"/>
+                <outlet property="JobTitleLbl" destination="gQY-Dn-u8q" id="hOH-Zb-4D9"/>
+                <outlet property="JobTypeLbl" destination="MOG-Pd-Mei" id="NOj-xz-KJ4"/>
+            </connections>
+            <point key="canvasLocation" x="-30.5" y="-294.5"/>
+        </view>
+    </objects>
+</document>
